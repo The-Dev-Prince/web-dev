@@ -30,6 +30,10 @@ main {
     border-radius: 12px;
     background-color: #fff;
 }
+.pattern img{
+    max-width: 60%;
+    text-align: center;
+}
 .pattern-title{
     padding: 12px;
     font-size: 1.1em;
@@ -60,6 +64,9 @@ main {
     .grid{
         grid-template-columns: repeat(3, 1fr);
     }
+    .pattern img{
+        max-width: 30%;
+    }
    
 }
 
@@ -77,5 +84,8 @@ main {
     .title{
         font-size: 2em;
         margin-bottom: 32px;
+    }
+    .pattern{
+        max-width: 24%;
     }
 }
