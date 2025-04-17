@@ -1,0 +1,81 @@
+nav {
+    display: block;
+    padding: 10px;
+}
+
+/* Magins to push body below nav */
+main {
+    display: block;
+    margin: 5% 3%;
+}
+/* I am using a header class to not mess up anyone elses header -Josi */
+.header{
+    padding-top:70px;
+    text-align: center;
+}
+/* For page title(s) - Josi */
+.title{
+    font-size: 1.8em;
+}
+/* For the patterns page - Josi */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pattern{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background-color: #fff;
+}
+.pattern-title{
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    background-color: purple;
+    color: goldenrod;
+    border-top: 1px solid #ddd;
+}
+
+.download-button{
+    display: block;
+    text-align: center;
+    padding: 12px;
+    background-color:pink;
+    color: #fff;
+    font-weight: bold; 
+    text-decoration: none;
+    
+}
+/* End of Josi's pattern page */
+.order-body {
+    background-color: rgb(250, 163, 221);
+}
+
+/* Tablet Breakpoint (This is where nav bar goes from hamburger to normal nav bar -Josi)*/
+@media screen and (min-width: 768px), print{
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+   
+}
+
+/* Desktop breakpoint (This is what google said was a good breakpoint for desktop -Josi)*/
+@media screen and (min-width: 1024px), print{
+    .pattern:hover{
+        transform: scale(1.02)
+    }
+    .download-button:hover{
+        background-color:red;
+    }
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .title{
+        font-size: 2em;
+        margin-bottom: 32px;
+    }
+}
