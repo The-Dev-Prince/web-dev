@@ -56,12 +56,23 @@ main {
 }
 
 #jumbo {
-    margin: 4.5% 0.5%;
+    margin: 80px 5px;
+}
+
+.heroimg {
+    display: inline;
+    float: right;
+    margin: 0;
+    padding: 0;
 }
 
 /* End of Josi's pattern page */
 .order-body {
     background-color: rgb(250, 163, 221);
+}
+
+.company {
+    display: inline;
 }
 
 /* Tablet Breakpoint (This is where nav bar goes from hamburger to normal nav bar -Josi)*/
