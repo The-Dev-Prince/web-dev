@@ -6,7 +6,7 @@ nav {
 /* Magins to push body below nav */
 main {
     display: block;
-    margin: 5% 3%;
+    padding-top:70px;
 }
 /* I am using a header class to not mess up anyone elses header -Josi */
 .header{
@@ -50,6 +50,11 @@ main {
     text-decoration: none;
     
 }
+
+#jumbo {
+    margin: 4.5% 0.5%;
+}
+
 /* End of Josi's pattern page */
 .order-body {
     background-color: rgb(250, 163, 221);
