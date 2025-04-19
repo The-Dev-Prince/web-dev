@@ -269,7 +269,7 @@ form {
 /* Desktop breakpoint (This is what google said was a good breakpoint for desktop -Josi)*/
 @media screen and (min-width: 1024px), print{
     .pattern:hover{
-        transform: scale(1.02)
+        transform: scale(1.05)
     }
     .download-button:hover{
         background-color:red;
