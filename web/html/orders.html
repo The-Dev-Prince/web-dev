@@ -39,10 +39,11 @@
 </nav>
 
 <main>
-  <h1 class="form-head">orders</h1>  
+<h1 class="form-head">orders</h1>  
+<div id="forms">
     <form>
         <fieldset class="info">
-            <legend>User info</legend>
+            <h3>User info</h3>
             <label for="firstn">First Name:</label>
             <input type="text" name="firstn" placeholder="First" required>
             <label for="lastn">Last Name:</label>
@@ -54,39 +55,54 @@
         </fieldset>
 
         <fieldset class="Items">
-            <legend>Items purchased</legend>
+            <h3>Items purchased</h3>
             <h6>Chrochet patterns added to shipment:</h6>
             <div id="patterns">
-                <label for="crochet_skull_patch" class="check"><input type="checkbox" name="pattern" id="crochet_skull_patch" value="crochet_skull_patch">Crochet skull patch</label>
-                <label for="crochet_spiked_choker" class="check"><input type="checkbox" name="pattern" id="crochet_spiked_choker" value="crochet_spiked_choker">Crochet spiked choker</label>
-                <label for="skull_granny_square" class="check"><input type="checkbox" name="pattern" id="skull_granny_square" value="skull_granny_square">Skull granny square</label>
-                </div> 
+                <label for="Amigurumi Motorcycle" class="check"><input type="checkbox" name="pattern" id="Amigurumi Motorcycle" value="Amigurumi Motorcycle">Amigurumi Motorcycle</label>
+                <label for="Motorcycle Cover" class="check"><input type="checkbox" name="pattern" id="Motorcycle Cover" value="Motorcycle Cover">Motorcycle Cover</label>
+                <label for="Leather Jacket" class="check"><input type="checkbox" name="pattern" id="Leather Jacket" value="Leather Jacket">Crochet leather Jacket</label>
+                <label for="Guitar Strap" class="check"><input type="checkbox" name="pattern" id="Guitar Strap" value="Guitar Strap">Guitar Strap</label>
+                <label for="Back Panel for Jacket" class="check"><input type="checkbox" name="pattern" id="Back Panel for Jacket" value="Back Panel for Jacket">Back Panel for Jacket</label>
+                <label for="Crochet Strange Skeleton Gloves" class="check"><input type="checkbox" name="pattern" id="Crochet Strange Skeleton Gloves" value="Crochet Strange Skeleton Gloves">Crochet Strange Skeleton Gloves</label>
+                <label for="Fingerless Skeleton Gloves" class="check"><input type="checkbox" name="pattern" id="Fingerless Skeleton Gloves" value="Fingerless Skeleton Gloves">Fingerless Skeleton Gloves</label>
+                <label for="Skull Amigurumi" class="check"><input type="checkbox" name="pattern" id="Skull Amigurumi" value="Skull Amigurumi">Skull Amigurumi</label>
+                <label for="Crochet Spiked Bracelet" class="check"><input type="checkbox" name="pattern" id="Crochet Spiked Bracelet" value="Crochet Spiked Bracelet">Crochet Spiked Bracelet</label>
+            </div> 
             <label for="yarn">Yarn purchased</label>
             <select name="yarn" id="yarn">
+                <option value="choose">choose</option>
                 <option value="yarn1">Yarn 1</option>
                 <option value="yarn2">Yarn 2</option>
                 <option value="yarn3">Yarn 3</option>
                 <option value="yarn4">Yarn 4</option>
             </select>
             <label for="instructions" class="instructions">Any specific delivery instructions?</label>
-            <textarea name="instructions" id="instructions" rows="7" cols="60" style="max-width: 100%;"></textarea>
+            <textarea name="instructions" id="instructions" rows="5" cols="70" style="max-width: 100%;"></textarea>
         </fieldset>
 
 
         <fieldset class="info">
-            <legend>User info</legend>
-            <label for="firstn">First Name:</label>
-            <input type="text" name="firstn" placeholder="First" required>
-            <label for="lastn">Last Name:</label>
-            <input type="text" name="lastn" placeholder="Last" required>
-            <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="Example@email.com" required>
-            <label for="phone">Phone:</label>
-            <input type="phone" name="phone" placeholder="xxx-xxx-xxxx" required>
+            <h3>Delivery information</h3>
+            <label for="state">State:</label>
+            <input type="text" name="state" placeholder="State" required>
+            <label for="city">City:</label>
+            <input type="text" name="city" placeholder="City" required>
+            <label for="address">Address:</label>
+            <input type="text" name="address" placeholder="123 Address st" required>
+            <label for="zip">Zip code:</label>
+            <input type="number" name="zip" placeholder="zip" required>
         </fieldset>
 
     </form>
+
+    <input type="submit" id="submit" value="submit" class="ctn">
+</div>
 </main>
+
+<footer class="mt-5">
+    <p>Page created by Hyrum Rohrbach</p>
+    <a href="portfoliohyrum.html">Portfolio</a>
+</footer>
 
 </body>
 

@@ -173,6 +173,8 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+    position: relative;
+    bottom: -150px;
 }
 footer a {
     color: white;
@@ -183,7 +185,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
+/* End of Josi's pattern page */
+.order-body {
+    background-color: rgb(250, 163, 221);
+}
 
 #jumbo {
     text-align: center;
@@ -235,14 +240,32 @@ form {
     margin: 10px;
 }
 
-
-/* End of Josi's pattern page */
-.order-body {
-    background-color: rgb(250, 163, 221);
+.ctn {
+    font-size: x-large;
+    margin: 5%;
+    padding: 0 10px;
+    margin-bottom: 10px;
 }
 
 .company {
     display: inline;
+}
+
+legend {
+    font-size: xx-large;
+}
+
+#patterns label{
+    color: rgb(73, 73, 73);
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+fieldset{
+    background-color: #0369a1;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /* Tablet Breakpoint (This is where nav bar goes from hamburger to normal nav bar -Josi)*/
@@ -273,13 +296,18 @@ form {
     form {
         display: grid;
         grid-template-columns: auto 40% auto;
-        grid-gap: 2%;
+        grid-gap: 1%;
     }
 
     fieldset {
         width: 100%;
     }
-   
+
+    .ctn {
+        font-size: x-large;
+        margin: 0 5%;
+        padding: 0 10px;
+    }
 }
 
 /* Desktop breakpoint (This is what google said was a good breakpoint for desktop -Josi)*/
@@ -313,7 +341,7 @@ form {
     form {
         display: grid;
         grid-template-columns: auto 35% auto;
-        grid-gap: 2%;
+        grid-gap: 1%;
     }
    
 }
