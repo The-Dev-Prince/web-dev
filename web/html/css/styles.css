@@ -181,13 +181,14 @@ footer a {
     font-weight: bold;
 }
 footer a:hover {
-    color: #ff4081; 
+    color: #FBCAEF; 
     text-decoration: underline;
 }
 
 /* End of Josi's pattern page */
-.order-body {
-    background-color: rgb(250, 163, 221);
+
+body {
+    background-color: #FBCAEF;
 }
 
 #jumbo {
@@ -256,14 +257,15 @@ legend {
 }
 
 #patterns label{
-    color: rgb(73, 73, 73);
+    color: goldenrod;
     border-radius: 5px;
     margin: 0 20px;
     padding: 5px;
 }
 
 fieldset{
-    background-color: #4cbffd;
+    color: black;
+    background-color: purple;
     border-radius: 10px;
     padding: 10px;
 }
