@@ -156,6 +156,23 @@ main {
     font-weight: 500;
 }
 
+/* Style rules for the footer */
+footer {
+    background-color: #201e1e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer a {
+    color: white;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #ff4081; 
+    text-decoration: underline;
+}
+
+
 
 #jumbo {
     text-align: center;
