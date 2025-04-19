@@ -112,6 +112,22 @@ form {
     width: 100%;
 }
 
+.Items {
+    width: 100%;
+}
+
+.instructions, textarea{
+    display: block;
+}
+
+#checkbox input {
+    display: inline-block;
+}
+
+.check {
+    margin: 10px;
+}
+
 
 /* End of Josi's pattern page */
 .order-body {
@@ -149,7 +165,7 @@ form {
 
     form {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto 40% auto;
         grid-gap: 2%;
     }
 
@@ -187,5 +203,10 @@ form {
         margin: 0 40px;
     }
     
+    form {
+        display: grid;
+        grid-template-columns: auto 35% auto;
+        grid-gap: 2%;
+    }
    
 }

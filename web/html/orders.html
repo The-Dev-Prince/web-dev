@@ -53,17 +53,25 @@
             <input type="phone" name="phone" placeholder="xxx-xxx-xxxx" required>
         </fieldset>
 
-        <fieldset class="info">
-            <legend>User info</legend>
-            <label for="firstn">First Name:</label>
-            <input type="text" name="firstn" placeholder="First" required>
-            <label for="lastn">Last Name:</label>
-            <input type="text" name="lastn" placeholder="Last" required>
-            <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="Example@email.com" required>
-            <label for="phone">Phone:</label>
-            <input type="phone" name="phone" placeholder="xxx-xxx-xxxx" required>
+        <fieldset class="Items">
+            <legend>Items purchased</legend>
+            <h6>Chrochet patterns added to shipment:</h6>
+            <div id="patterns">
+                <label for="crochet_skull_patch" class="check"><input type="checkbox" name="pattern" id="crochet_skull_patch" value="crochet_skull_patch">Crochet skull patch</label>
+                <label for="crochet_spiked_choker" class="check"><input type="checkbox" name="pattern" id="crochet_spiked_choker" value="crochet_spiked_choker">Crochet spiked choker</label>
+                <label for="skull_granny_square" class="check"><input type="checkbox" name="pattern" id="skull_granny_square" value="skull_granny_square">Skull granny square</label>
+                </div> 
+            <label for="yarn">Yarn purchased</label>
+            <select name="yarn" id="yarn">
+                <option value="yarn1">Yarn 1</option>
+                <option value="yarn2">Yarn 2</option>
+                <option value="yarn3">Yarn 3</option>
+                <option value="yarn4">Yarn 4</option>
+            </select>
+            <label for="instructions" class="instructions">Any specific delivery instructions?</label>
+            <textarea name="instructions" id="instructions" rows="7" cols="60" style="max-width: 100%;"></textarea>
         </fieldset>
+
 
         <fieldset class="info">
             <legend>User info</legend>
