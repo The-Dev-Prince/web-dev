@@ -12,6 +12,7 @@
 nav {
     display: block;
     padding: 10px;
+    font-family: Metal;
 }
 
 /* psuedo classes for the nav */
@@ -188,13 +189,15 @@ footer a:hover {
 /* End of Josi's pattern page */
 
 body {
-    background-color: #FBCAEF;
+    background-color: #ff6ada;
+    font-family: metal;
 }
 
 #jumbo {
     text-align: center;
     margin: 80px 5px;
     padding: 5px 5px;
+    background-color: lightpink;
 }
 
 #jumbo h1 {
@@ -268,6 +271,21 @@ fieldset{
     background-color: purple;
     border-radius: 10px;
     padding: 10px;
+}
+
+#vidbanner {
+    padding: 20px;
+    margin-top: -100px;
+    background-color: purple;
+}
+
+video{
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
 }
 
 /* Tablet Breakpoint (This is where nav bar goes from hamburger to normal nav bar -Josi)*/
@@ -344,6 +362,10 @@ fieldset{
         display: grid;
         grid-template-columns: auto 35% auto;
         grid-gap: 1%;
+    }
+
+    body {
+        background-color: #FBCAEF;
     }
    
 }
