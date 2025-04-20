@@ -9,10 +9,22 @@
 
 /* <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metal+Mania&display=swap" rel="stylesheet"> */
 
+/* font */
+.metal-mania-regular {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html h1 h3 p{
+    font-family: "Metal Mania";
+}
+
+/* nav styling */
 nav {
     display: block;
     padding: 10px;
-    font-family: Metal;
+    font-family: "Metal Mania";
 }
 
 /* psuedo classes for the nav */
@@ -190,9 +202,10 @@ footer a:hover {
 
 body {
     background-color: #ff6ada;
-    font-family: metal;
+    font-family: "Metal Mania";
 }
 
+/* home page styling */
 #jumbo {
     text-align: center;
     margin: 80px 5px;
@@ -212,6 +225,26 @@ body {
     margin: 0 10px;
 }
 
+#vidbanner {
+    padding: 20px;
+    margin-top: -100px;
+    background-color: purple;
+}
+
+video{
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.company {
+    display: inline;
+}
+
+/* start of orders page styling */
 .form-head {
     margin: 3% 0;
     text-align: center;
@@ -251,10 +284,6 @@ form {
     margin-bottom: 10px;
 }
 
-.company {
-    display: inline;
-}
-
 legend {
     font-size: xx-large;
 }
@@ -273,21 +302,6 @@ fieldset{
     padding: 10px;
 }
 
-#vidbanner {
-    padding: 20px;
-    margin-top: -100px;
-    background-color: purple;
-}
-
-video{
-    max-width: 50%;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    
-}
-
 #thx {
     display: none;
     margin: 10px;
@@ -300,6 +314,27 @@ video{
 
 #thx img{
     height: 150px;
+}
+
+/* end of orders page styling */
+
+/* start of hyrums portpholio styling */
+.author {
+    margin: 2%;
+    text-align: center;
+}
+
+.aphoto {
+    margin: 2%;
+    display: block;
+    margin: auto;
+    max-width: 95%;
+}
+
+#resume {
+    display: inline-block;
+    margin: 2%;
+    padding: 20px;
 }
 
 /* Tablet Breakpoint (This is where nav bar goes from hamburger to normal nav bar -Josi)*/
@@ -346,6 +381,7 @@ video{
     #thx img{
         height: 200px;
     }
+
 }
 
 /* Desktop breakpoint (This is what google said was a good breakpoint for desktop -Josi)*/
@@ -389,5 +425,28 @@ video{
     #thx img{
         height: 250px;
     }
-   
+
+    .aphoto {
+        margin: 2%;
+        float: left;
+        max-width: 40%;
+    }
+
+    #resume {
+        background-color: lightslategray;
+        border-radius: 10px;
+        width: 50%;
+        display: block;
+        float: right;
+        font-size: x-large;
+    }
+
+    #list {
+        display: inline-block;
+        margin: auto;
+        font-size: x-large;
+    }
+
+
+
 }
