@@ -13,6 +13,24 @@
     display: none;
 }
 
+#price {
+    text-align: center;
+    margin: 5%;
+}
+
+#price table, td, th {
+    padding: 5px;
+    border: 2px solid black;
+    background-color: #f892de;
+}
+
+.twitter {
+    width: 225px;
+}
+
+figure {
+    display: inline-block;
+}
 
 nav {
     display: block;
@@ -342,7 +360,7 @@ fieldset{
 @media screen and (min-width: 768px), print{
 
     .desktop {
-        display: show;
+        display: block;
     }
 
     .grid{
@@ -408,6 +426,7 @@ fieldset{
     .home #map {
         text-align: center;
         max-width: 100%;
+        margin: 5%;
     }
     
     .home #map img{
