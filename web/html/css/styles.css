@@ -9,31 +9,18 @@
 
 /* <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metal+Mania&display=swap" rel="stylesheet"> */
 
-/* font */
-.metal-mania-regular {
-    font-family: "Metal Mania", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-
-html h1 h3 p{
-    font-family: "Metal Mania";
-}
-
-/* nav styling */
 nav {
     display: block;
     padding: 10px;
-    font-family: "Metal Mania";
+    font-family: Metal;
 }
 
 /* psuedo classes for the nav */
 nav:hover{
     color: purple;
 }
-nav:active{
-    color: pink;
-}
+
+
 
 /* Magins to push body below nav */
 main {
@@ -46,8 +33,14 @@ main {
     text-align: center;
 }
 /* For page title(s) - Josi */
-.title{
-    font-size: 1.8em;
+.page-title{
+    font-size: 3em;
+    font-family: 'Metal Mania', cursive;
+}
+.page-description{
+    padding: 20px;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
 }
 /* For the patterns page - Josi */
 .grid{
@@ -60,7 +53,7 @@ main {
 .pattern{
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     border-radius: 12px;
-    background-color: #fff;
+    background-color: #32292F;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,20 +73,25 @@ main {
     font-size: 1.1em;
     font-weight: bold;
     text-align: center;
-    background-color: purple;
-    color: goldenrod;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 1px;
+    background-color: #7765E3;
+    color: #32292F;
     width: 100%;
     box-sizing: border-box;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #32292F;
+    border-bottom: 1px solid #32292F;
+
 }
 
 .download-button{
     display: block;
     width: 100%;
     padding: 12px;
-    background-color: pink;
+    background-color: #f892de;
     color: #fff;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 1px;
     font-weight: bold;
     text-decoration: none;
     box-sizing: border-box;
@@ -202,7 +200,7 @@ footer a:hover {
 
 body {
     background-color: #ff6ada;
-    font-family: "Metal Mania";
+    font-family: metal;
 }
 
 /* home page styling */
@@ -425,28 +423,5 @@ fieldset{
     #thx img{
         height: 250px;
     }
-
-    .aphoto {
-        margin: 2%;
-        float: left;
-        max-width: 40%;
-    }
-
-    #resume {
-        background-color: lightslategray;
-        border-radius: 10px;
-        width: 50%;
-        display: block;
-        float: right;
-        font-size: x-large;
-    }
-
-    #list {
-        display: inline-block;
-        margin: auto;
-        font-size: x-large;
-    }
-
-
-
+   
 }
