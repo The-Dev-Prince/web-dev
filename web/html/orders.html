@@ -42,7 +42,7 @@
 <main>
 <h1 class="form-head">orders</h1>  
 <div id="forms">
-    <form>
+    <form id="order">
         <fieldset class="info">
             <h3>User info</h3>
             <label for="firstn">First Name:</label>
@@ -97,6 +97,11 @@
     </form>
 
     <input type="submit" id="submit" value="submit" class="ctn">
+    <div id="thx">
+        <img src="media/thx.jpg" alt="Thank You!">
+        <h1>Thank You for your purchase! Your order has been submitted and will arive in 3 to 5 business days!</h1>
+    </div>
+    
 </div>
 </main>
 
@@ -106,5 +111,14 @@
 </footer>
 
 </body>
+
+<script>
+$(document).ready(function(){
+    $("#submit").click(function(){
+        $("#thx").show();
+        document.getElementById("order").reset();
+    });
+});
+</script>
 
 </html>

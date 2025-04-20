@@ -288,6 +288,20 @@ video{
     
 }
 
+#thx {
+    display: none;
+    margin: 10px;
+    text-align: center;
+}
+
+#thx h1 {
+    margin: 40px;
+}
+
+#thx img{
+    height: 150px;
+}
+
 /* Tablet Breakpoint (This is where nav bar goes from hamburger to normal nav bar -Josi)*/
 @media screen and (min-width: 768px), print{
     .grid{
@@ -328,6 +342,10 @@ video{
         margin: 0 5%;
         padding: 0 10px;
     }
+
+    #thx img{
+        height: 200px;
+    }
 }
 
 /* Desktop breakpoint (This is what google said was a good breakpoint for desktop -Josi)*/
@@ -366,6 +384,10 @@ video{
 
     body {
         background-color: #FBCAEF;
+    }
+
+    #thx img{
+        height: 250px;
     }
    
 }
