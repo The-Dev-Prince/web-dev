@@ -12,7 +12,7 @@
 nav {
     display: block;
     padding: 10px;
-    font-family: Metal;
+    font-family: "Metal Mania";
 }
 
 /* psuedo classes for the nav */
@@ -20,7 +20,9 @@ nav:hover{
     color: purple;
 }
 
-
+body, h1, h3, h6, p, form {
+    font-family: "Metal Mania";
+}
 
 /* Magins to push body below nav */
 main {
