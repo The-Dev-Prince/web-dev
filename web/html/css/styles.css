@@ -126,6 +126,26 @@ main {
     border-bottom-right-radius: 12px;
     
 }
+#darkToggle {
+    background-color: #111;
+    color: #eee;
+    border: 2px solid red;
+    padding: 10px 20px;
+    font-family: 'Metal Mania', cursive;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px red;
+    margin-bottom: 40px;
+  }
+  #darkToggle:hover {
+    background-color: red;
+    color: black;
+    box-shadow: 0 0 20px red;
+    transform: scale(1.05);
+  }
 
 /* Style rules for the Metal Mode */
 .metal-mode {
@@ -134,6 +154,7 @@ main {
   }
   
   .metal-mode .pattern-title {
+    background-color: gray;
     color: crimson;
   }
   
