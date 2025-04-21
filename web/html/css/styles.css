@@ -33,7 +33,11 @@
 }
 
 .twitter {
-    width: 225px;
+    width: 75px;
+}
+
+.facebook {
+    width: 100px;
 }
 
 figure {
