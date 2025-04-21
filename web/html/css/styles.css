@@ -175,6 +175,13 @@ main {
   }
 
 /*Style Rules for Josi Portfolio */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+  }
   .josi-portfolio-body{
     margin: 0;
     font-family: sans-serif;
@@ -246,8 +253,8 @@ main {
     padding-left: 0;
 }
 .skill{
-    background-color: #e0f2fe;
-    color: #0369a1;
+    background-color: #fbdcf3;
+    color: #e92ab9;
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -268,7 +275,7 @@ footer a {
     font-weight: bold;
 }
 footer a:hover {
-    color: #FBCAEF; 
+    color: #FBCAEF;
     text-decoration: underline;
 }
 
