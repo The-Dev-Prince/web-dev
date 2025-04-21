@@ -51,7 +51,6 @@ nav {
 nav:hover{
     color: purple;
 }
-
 /* Magins to push body below nav */
 main {
     display: block;
@@ -129,6 +128,7 @@ main {
     border-bottom-right-radius: 12px;
     
 }
+
 #darkToggle {
     background-color: #111;
     color: #eee;
@@ -286,7 +286,6 @@ footer a:hover {
 
 body {
     background-color: #ff6ada;
-    font-family: metal;
 }
 
 /* home page styling */
@@ -380,6 +379,7 @@ fieldset{
     background-color: purple;
     border-radius: 10px;
     padding: 10px;
+    font-family: "Lato";
 }
 
 #thx {
@@ -394,6 +394,10 @@ fieldset{
 
 #thx img{
     height: 150px;
+}
+
+.Items h6 {
+    font-family: "Lato";
 }
 
 /* end of orders page styling */
