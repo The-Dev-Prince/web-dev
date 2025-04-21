@@ -52,8 +52,12 @@ nav:hover{
     color: purple;
 }
 
-body, h1, h3, h6, p, form {
+body, h1, h3, h6 {
     font-family: "Metal Mania";
+}
+
+p, form {
+    font-family: "Lato";
 }
 
 /* Magins to push body below nav */
@@ -291,7 +295,6 @@ footer a:hover {
 
 body {
     background-color: #ff6ada;
-    font-family: metal;
 }
 
 /* home page styling */
@@ -385,6 +388,7 @@ fieldset{
     background-color: purple;
     border-radius: 10px;
     padding: 10px;
+    font-family: "Lato";
 }
 
 #thx {
@@ -399,6 +403,10 @@ fieldset{
 
 #thx img{
     height: 150px;
+}
+
+.Items h6 {
+    font-family: "Lato";
 }
 
 /* end of orders page styling */
