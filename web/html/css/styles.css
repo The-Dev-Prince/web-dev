@@ -500,17 +500,17 @@ fieldset{
     align-items: center;
     background-color: #32292f;
     color: #fbcaef;
-    padding: 100px 0 30px;
+    padding: 125px 0 30px;
 }
 
 .profile-img-robert {
     width: auto;
-    margin-right: 20px;
     border: 1.5px solid #fbcaef;
     border-radius: 8px;
 }
 
 .header-text-robert h1 {
+    text-align: center;
     font-family: "Metal Mania", system-ui;
     font-size: 2.5em;
     margin-top: 10px;
@@ -518,6 +518,7 @@ fieldset{
 }
 
 .header-text-robert .title {
+    text-align: center;
     font-family: "Lato", sans-serif;
     font-size: 1.25em;
     font-weight: 300;
@@ -660,7 +661,7 @@ fieldset{
 
 /* Container to center content */
 .container-robert {
-    width: 90%;
+    width: auto;
     max-width: 1200px;
     margin: 0 auto;
 }
