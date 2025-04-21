@@ -13,6 +13,7 @@
     display: none;
 }
 
+/* table styling */
 #price {
     text-align: center;
     margin: 5%;
@@ -32,6 +33,7 @@ figure {
     display: inline-block;
 }
 
+/* nav */
 nav {
     display: block;
     padding: 10px;
@@ -47,17 +49,17 @@ body, h1, h3, h6, p, form {
     font-family: "Metal Mania";
 }
 
-/* Margins to push body below nav */
+/* Magins to push body below nav */
 main {
     display: block;
     padding-top:70px;
 }
-/* Header class */
+/* I am using a header class to not mess up anyone elses header -Josi */
 .header{
     padding-top:70px;
     text-align: center;
 }
-/* Formatting for title and description for each page*/
+/* For page title(s) - Josi */
 .page-title{
     font-size: 3em;
     font-family: 'Metal Mania', cursive;
@@ -67,7 +69,7 @@ main {
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
 }
-/* Style rules for the Patterns Page */
+/* For the patterns page - Josi */
 .grid{
     display: grid;
     grid-template-columns: 1fr;
@@ -108,6 +110,7 @@ main {
     border-bottom: 1px solid #32292F;
 
 }
+
 .download-button{
     display: block;
     width: 100%;
@@ -123,8 +126,6 @@ main {
     border-bottom-right-radius: 12px;
     
 }
-
-/*Style rules for Josi's Portfolio*/
 .josi-portfolio-body{
     margin: 0;
     font-family: sans-serif;
@@ -149,13 +150,6 @@ main {
     font-weight: 700;
     color: #111827;
 }
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #ccc;
-  }
 .josi-title{
     font-size: 1.1rem;
     color: #6b7280;
@@ -203,8 +197,8 @@ main {
     padding-left: 0;
 }
 .skill{
-    background-color: #FBCAEF;
-    color: black;
+    background-color: #e0f2fe;
+    color: #0369a1;
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -225,17 +219,18 @@ footer a {
     font-weight: bold;
 }
 footer a:hover {
-    color: #FBCAEF;
+    color: #FBCAEF; 
     text-decoration: underline;
 }
 
-/*Style rule for the Body*/
+/* End of Josi's pattern page */
+
 body {
     background-color: #ff6ada;
     font-family: metal;
 }
 
-/* Style rules for the Homepage */
+/* home page styling */
 #jumbo {
     text-align: center;
     margin: 80px 5px;
@@ -412,7 +407,7 @@ fieldset{
     #thx img{
         height: 200px;
     }
-
+    /* desktop styling for desktop */
     .home {
         display: grid;
         grid-template-columns: auto auto auto auto;

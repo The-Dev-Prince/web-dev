@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--links-->
+
 <head> 
     <title>Heavy metal crocheters</title>
     <meta charset="utf-8">
@@ -14,7 +17,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-
+<!--links-->
 <body class="order-body">
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="#">
@@ -42,10 +45,12 @@
 </nav>
 
 <main>
+    <!--start of form-->
 <h1 class="form-head">orders</h1>  
 <div id="forms">
     <form id="order">
         <fieldset class="info">
+            <!--user info feildset-->
             <h3>User info</h3>
             <label for="firstn">First Name:</label>
             <input type="text" name="firstn" placeholder="First" required>
@@ -58,6 +63,7 @@
         </fieldset>
 
         <fieldset class="Items">
+            <!--products feildset-->
             <h3>Items purchased</h3>
             <h6>Chrochet patterns added to shipment:</h6>
             <div id="patterns">
@@ -85,6 +91,7 @@
 
 
         <fieldset class="info">
+            <!--delivery info feildset-->
             <h3>Delivery information</h3>
             <label for="state">State:</label>
             <input type="text" name="state" placeholder="State" required>
@@ -97,23 +104,24 @@
         </fieldset>
 
     </form>
-
+<!--submit button-->
     <input type="submit" id="submit" value="submit" class="ctn">
     <div id="thx">
+        <!--thank you message-->
         <img src="media/thx.jpg" alt="Thank You!">
         <h1>Thank You for your purchase! Your order has been submitted and will arive in 3 to 5 business days!</h1>
     </div>
     
 </div>
 </main>
-
+<!--footer-->
 <footer class="mt-5">
     <p>Page created by Hyrum Rohrbach</p>
     <a href="portfoliohyrum.html">Portfolio</a>
 </footer>
 
 </body>
-
+<!--script to clear form and show thank you-->
 <script>
 $(document).ready(function(){
     $("#submit").click(function(){
