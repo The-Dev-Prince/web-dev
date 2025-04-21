@@ -126,7 +126,63 @@ main {
     border-bottom-right-radius: 12px;
     
 }
-.josi-portfolio-body{
+#darkToggle {
+    background-color: #111;
+    color: #eee;
+    border: 2px solid red;
+    padding: 10px 20px;
+    font-family: 'Metal Mania', cursive;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px red;
+    margin-bottom: 40px;
+  }
+  #darkToggle:hover {
+    background-color: red;
+    color: black;
+    box-shadow: 0 0 20px red;
+    transform: scale(1.05);
+  }
+
+/* Style rules for the Metal Mode */
+.metal-mode {
+    background-color: #111;
+    color: #f0f0f0;
+  }
+  
+  .metal-mode .pattern-title {
+    background-color: gray;
+    color: crimson;
+  }
+  
+  .metal-mode .page-title {
+    color: #ff4444;
+    text-shadow: 0 0 10px #ff4444, 0 0 20px #ff0000;
+  }
+  
+  .metal-mode a.download-button {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid crimson;
+  }
+  
+  .metal-mode a.download-button:hover {
+    background-color: crimson;
+    color: black;
+  }
+
+/*Style Rules for Josi Portfolio */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+  }
+  .josi-portfolio-body{
     margin: 0;
     font-family: sans-serif;
     background-color: #f9fafb;
@@ -197,8 +253,8 @@ main {
     padding-left: 0;
 }
 .skill{
-    background-color: #e0f2fe;
-    color: #0369a1;
+    background-color: #fbdcf3;
+    color: #e92ab9;
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -219,7 +275,7 @@ footer a {
     font-weight: bold;
 }
 footer a:hover {
-    color: #FBCAEF; 
+    color: #FBCAEF;
     text-decoration: underline;
 }
 
