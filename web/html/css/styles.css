@@ -55,15 +55,6 @@ nav {
 nav:hover{
     color: purple;
 }
-
-body, h1, h3, h6 {
-    font-family: "Metal Mania";
-}
-
-p, form {
-    font-family: "Lato";
-}
-
 /* Magins to push body below nav */
 main {
     display: block;
